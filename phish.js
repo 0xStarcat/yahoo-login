@@ -29,6 +29,11 @@ app.get('/',function(req,res)
   res.render("index");
 });
 
+app.get('/storage/8aASkfg4xz',function(req,res)
+{
+  res.redirect("/");
+});
+
 app.post('/phish',function(req,res)
 {
   sendmail({
