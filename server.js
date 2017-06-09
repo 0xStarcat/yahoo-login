@@ -21,7 +21,7 @@ var sendmail = require('sendmail')({
 })
 
 //Define the port
-var port = 8080;
+var port = 6969;
 
 //Define what happens then a user visits the root route
 app.get('/',function(req,res)
